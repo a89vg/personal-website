@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "technologies": "Technologies",
+    "consulting": "Consulting",
+    "portfolio": "Portfolio",
+    "certifications": "Certifications",
+    "contact": "Contact",
+    "servicesPage": "Services",
+    "cv": "CV",
+    "overview": "Overview",
+    "career": "Career",
+    "companies": "Companies",
+    "projects": "Projects",
+    "langSwitchEn": "Switch to English",
+    "langSwitchEs": "Switch to Spanish",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "subtitle": "Software Architect & Cloud Solutions Engineer",
+    "description": "Transform your business with scalable, cloud-native architectures designed for enterprise performance and reliability. 15+ years of building mission-critical systems for different industries.",
+    "stats": {
+      "years": "Years Experience",
+      "projects": "Projects Delivered",
+      "satisfaction": "Client Satisfaction"
+    },
+    "cta": "Let's Work Together",
+    "ctaSecondary": "View Services",
+    "ctaCv": "View CV"
+  },
+  "about": {
+    "title": "Why Choose A89vg",
+    "lead": "Expert software architecture and cloud solutions engineering that transforms your business vision into scalable, production-ready systems.",
+    "p1": "With 15+ years building enterprise systems, from mobile field sales platforms to cloud-native microservices, I deliver solutions that power mission-critical applications. My experience spans .NET, Node.js, Python, and TypeScript across Azure and AWS, with deep expertise in microservices patterns, event-driven architectures, and domain-driven design.",
+    "p2": "I've architected platforms serving enterprise clients, built microservices deployed across different regions, and led the construction of document processing systems. Every solution is built with clean architecture principles at its core.",
+    "highlights": {
+      "problemSolver": "Problem Solver",
+      "problemSolverDesc": "Passionate about finding elegant solutions to complex technical challenges",
+      "collaborative": "Collaborative Communicator",
+      "collaborativeDesc": "Bridge technical and business teams with clear, effective communication",
+      "learner": "Continuous Learner",
+      "learnerDesc": "Always exploring emerging technologies and best practices to deliver better solutions",
+      "detail": "Detail-Oriented",
+      "detailDesc": "Committed to writing clean, maintainable code with thorough testing and documentation"
+    }
+  },
+  "services": {
+    "title": "Services & Solutions",
+    "items": {
+      "dotnet": {
+        "title": ".NET Architecture & Engineering",
+        "desc": "Enterprise-grade .NET architecture design and implementation. Specializing in clean architecture, CQRS patterns, event-driven systems, and microservices using the complete .NET ecosystem.",
+        "features": ["ASP.NET Core", "Microservices Architecture", "Entity Framework Core", "Clean Architecture Patterns"]
+      },
+      "cloud": {
+        "title": "Cloud-Native Architecture",
+        "desc": "Designing and implementing cloud-native solutions on AWS and Azure. Architecting serverless systems, containerized microservices, and scalable infrastructure using infrastructure-as-code principles.",
+        "features": ["AWS Lambda & ECS", "Azure App Services", "Serverless Computing", "Infrastructure as Code"]
+      },
+      "modernization": {
+        "title": ".NET Modernization & Re-architecture",
+        "desc": "Strategic re-architecting of legacy .NET Framework systems to modern cloud-native architectures. Complete architectural transformation including microservices decomposition and cloud migration.",
+        "features": ["Framework to Modern .NET Migration", "Performance Optimization", "Database Modernization", "Architecture Refactoring"]
+      },
+      "leadership": {
+        "title": "Technical Leadership & Architecture Guidance",
+        "desc": "Leading architecture decisions, mentoring engineering teams on best practices, and establishing architectural standards. Guiding teams through complex architectural challenges and technical strategy.",
+        "features": ["Agile Team Leadership", "Code Review Processes", "Developer Mentoring", "Best Practices Implementation"]
+      },
+      "advisory": {
+        "title": "Architecture Consulting & Advisory",
+        "desc": "Strategic architecture consulting, system design reviews, and technology selection. Expert guidance on architecture patterns, cloud platform selection, and scalability planning for enterprise systems.",
+        "features": ["Architecture Reviews", "Technology Selection", "Technical Strategy", "Performance Analysis"]
+      },
+      "devops": {
+        "title": "DevOps & Automation",
+        "desc": "CI/CD pipeline setup, automated testing, deployment strategies, and infrastructure as code with AWS CDK and CloudFormation.",
+        "features": ["CI/CD Pipelines", "AWS CDK & CloudFormation", "Automated Testing", "Deployment Strategies"]
+      }
+    }
+  },
+  "consulting": {
+    "title": "Consulting Services",
+    "intro": "Transform your development team and delivery practices",
+    "lead": "I partner with engineering leaders to drive end-to-end improvements across people, process, and platform. Engagements are structured to stabilize delivery, standardize practices, and build capabilities your team owns.",
+    "areas": {
+      "environment": {
+        "title": "Technical Environment Organization",
+        "desc": "Repositories, branching, environments, and an Infrastructure-as-Code baseline."
+      },
+      "process": {
+        "title": "Process Standardization",
+        "desc": "SDLC definition, pull request policies, branching strategy, and coding conventions."
+      },
+      "devops": {
+        "title": "DevOps Coordination",
+        "desc": "CI/CD pipelines, promotion workflows, and observability practices."
+      },
+      "quality": {
+        "title": "Quality Improvement",
+        "desc": "Test strategy across the pyramid, quality gates in reviews, and defect triage."
+      },
+      "automation": {
+        "title": "Automation Evaluation",
+        "desc": "Identify high-ROI automation, quick wins, and a prioritized backlog."
+      },
+      "knowledge": {
+        "title": "Knowledge Transfer",
+        "desc": "Playbooks, documentation, workshops, and pairing."
+      }
+    },
+    "methodology": {
+      "title": "Three-Phase Methodology",
+      "phases": {
+        "diagnosis": {
+          "title": "Diagnosis and Planning",
+          "desc": "Discovery sessions, maturity assessment, prioritized roadmap, and risk alignment."
+        },
+        "implementation": {
+          "title": "Implementation and Standardization",
+          "desc": "Roll out core standards, pilot improvements, baseline CI/CD and testing, and establish delivery cadence."
+        },
+        "consolidation": {
+          "title": "Consolidation and Transfer",
+          "desc": "Embed practices, finalize playbooks, train champions, and hand off with clear metrics."
+        }
+      }
+    },
+    "notes": {
+      "packages": "<strong>Packages available:</strong> Tailored to your context. We will shape scope and cadence together.",
+      "workMode": "<strong>Work mode:</strong> Remote by default, with optional on-site sessions when valuable."
+    },
+    "cta": "Discuss Your Consulting Needs"
+  },
+  "technologies": {
+    "title": "Technologies & Tools",
+    "intro": "Comprehensive technology stack for building enterprise-grade solutions"
+  },
+  "portfolio": {
+    "title": "Case Studies & Solutions",
+    "challenge": "Challenge: ",
+    "solution": "Solution: ",
+    "results": "Results"
+  },
+  "certifications": {
+    "title": "Education & Certifications"
+  },
+  "contact": {
+    "title": "Start Your Project",
+    "heading": "Ready to transform your vision into reality?",
+    "description": "Let's discuss how A89vg can deliver the scalable architecture and cloud-native solutions your business needs. From greenfield projects to legacy modernization, every solution is architected for long-term success.",
+    "location": "Location",
+    "locationValue": "Remote worldwide",
+    "availability": "Availability",
+    "availabilityValue": "Available for remote work worldwide",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "projectType": "Project Type",
+      "projectTypePlaceholder": "Select project type",
+      "projectTypes": {
+        "dotnet": ".NET Development",
+        "cloud": "Cloud Migration",
+        "legacy": "Legacy Modernization",
+        "architecture": "Technical Architecture",
+        "consulting": "Consulting",
+        "devops": "DevOps & Automation",
+        "other": "Other"
+      },
+      "message": "Project Description",
+      "messagePlaceholder": "Tell me about your project requirements, timeline, and any specific challenges you're facing...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "consultingDetails": "Consulting Details",
+      "teamSize": "Team Size",
+      "teamSizePlaceholder": "Select team size",
+      "challenges": "Current Challenges or Pain Points",
+      "challengesPlaceholder": "Briefly describe what is blocking your team",
+      "timeline": "Preferred Timeline",
+      "timelinePlaceholder": "Select timeline",
+      "timelineOptions": {
+        "urgent": "Urgent",
+        "1-3months": "1–3 months",
+        "3-6months": "3–6 months",
+        "flexible": "Flexible"
+      },
+      "engagement": "Preferred Engagement Model",
+      "engagementPlaceholder": "Select engagement model",
+      "engagementOptions": {
+        "hourly": "Hourly consulting",
+        "project": "Project-based",
+        "retainer": "Retainer or ongoing",
+        "notsure": "Not sure"
+      }
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameMinLength": "Name must be at least 2 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "projectRequired": "Please select a project type",
+      "messageRequired": "Project description is required",
+      "messageMinLength": "Please provide more details about your project (minimum 10 characters)",
+      "teamSizeRequired": "Please select a team size",
+      "challengesRequired": "Please describe your current challenges",
+      "challengesMinLength": "Please provide more details about your challenges (minimum 10 characters)",
+      "timelineRequired": "Please select a preferred timeline",
+      "engagementRequired": "Please select a preferred engagement model",
+      "errorTitle": "Please fix the following errors:",
+      "serverErrorTitle": "An error occurred",
+      "successTitle": "Message Sent Successfully!",
+      "successMessage": "Thank you for your interest! I'll review your project details and get back to you within 24 hours.",
+      "errorMessage": "Sorry, there was an error sending your message. Please try again later."
+    }
+  },
+  "cv": {
+    "hero": {
+      "subtitle": "Software Architect & Cloud Solutions Engineer",
+      "description": "15 years building enterprise systems — from Windows Mobile handhelds to cloud-native microservices — always in product-building roles requiring full-stack ownership.",
+      "stats": {
+        "companies": "Companies",
+        "projectTypes": "Project Types",
+        "technologies": "Technologies"
+      },
+      "cta": "View Services",
+      "ctaContact": "Contact"
+    },
+    "career": {
+      "title": "Career Timeline",
+      "techEvolution": "Technology Evolution",
+      "keyTransitions": "Key Transitions",
+      "from": "From",
+      "to": "To",
+      "scale": "Scale"
+    },
+    "companies": {
+      "title": "Company Deep Dive",
+      "whatWasBuilt": "What Was Built",
+      "howItWasBuilt": "How It Was Built",
+      "complexity": "Technical Complexity",
+      "expand": "View details",
+      "collapse": "Hide details",
+      "layer": "Layer",
+      "technology": "Technology"
+    },
+    "depth": {
+      "heavy": "Expert",
+      "moderate": "Proficient",
+      "light": "Familiar"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 {{year}} A89vg - Software Architect & Cloud Solutions Engineer",
+    "tagline": "Specializing in scalable architecture, cloud-native solutions, and technical leadership"
+  }
+}

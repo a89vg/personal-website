@@ -1,0 +1,22 @@
+{
+  "name": "a89vg-infra",
+  "version": "5.0.0",
+  "bin": {
+    "infra": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "synth": "cdk synth --profile a89vg",
+    "deploy": "cdk deploy --all --profile a89vg",
+    "diff": "cdk diff --profile a89vg"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "aws-cdk": "^2.175.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.175.0",
+    "constructs": "^10.4.0"
+  }
+}

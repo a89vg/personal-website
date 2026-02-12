@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "technologies": "Tecnolog\u00edas",
+    "consulting": "Consultor\u00eda",
+    "portfolio": "Portafolio",
+    "certifications": "Certificaciones",
+    "contact": "Contacto",
+    "servicesPage": "Servicios",
+    "cv": "CV",
+    "overview": "Resumen",
+    "career": "Trayectoria",
+    "companies": "Empresas",
+    "projects": "Proyectos",
+    "langSwitchEn": "Cambiar a Ingl\u00e9s",
+    "langSwitchEs": "Cambiar a Espa\u00f1ol",
+    "toggleMenu": "Alternar men\u00fa"
+  },
+  "hero": {
+    "subtitle": "Arquitecto de Software e Ingeniero de Soluciones en la Nube",
+    "description": "Transforma tu negocio con arquitecturas escalables y nativas de la nube dise\u00f1adas para alto rendimiento y confiabilidad empresarial. 15+ a\u00f1os construyendo sistemas de misi\u00f3n cr\u00edtica para diferentes industrias.",
+    "stats": {
+      "years": "A\u00f1os de Experiencia",
+      "projects": "Proyectos Entregados",
+      "satisfaction": "Satisfacci\u00f3n del Cliente"
+    },
+    "cta": "Trabajemos Juntos",
+    "ctaSecondary": "Ver Servicios",
+    "ctaCv": "Ver CV"
+  },
+  "about": {
+    "title": "Por Qu\u00e9 Elegir A89vg",
+    "lead": "Arquitectura de software experta e ingenier\u00eda de soluciones en la nube que transforma tu visi\u00f3n empresarial en sistemas escalables listos para producci\u00f3n.",
+    "p1": "Con 15+ a\u00f1os construyendo sistemas empresariales, desde plataformas m\u00f3viles de ventas en campo hasta microservicios nativos de la nube, entrego soluciones que potencian aplicaciones de misi\u00f3n cr\u00edtica. Mi experiencia abarca .NET, Node.js, Python y TypeScript en Azure y AWS, con profunda experiencia en patrones de microservicios, arquitecturas orientadas a eventos y dise\u00f1o orientado al dominio.",
+    "p2": "He diseñado plataformas que sirven a clientes empresariales, construido microservicios desplegados en diferentes regiones, y liderado la construcción de sistemas de procesamiento de documentos. Cada soluci\u00f3n se construye con principios de arquitectura limpia como base.",
+    "highlights": {
+      "problemSolver": "Solucionador de Problemas",
+      "problemSolverDesc": "Apasionado por encontrar soluciones elegantes a desaf\u00edos t\u00e9cnicos complejos",
+      "collaborative": "Comunicador Colaborativo",
+      "collaborativeDesc": "Conecto equipos t\u00e9cnicos y de negocio con comunicaci\u00f3n clara y efectiva",
+      "learner": "Aprendiz Continuo",
+      "learnerDesc": "Siempre explorando tecnolog\u00edas emergentes y mejores pr\u00e1cticas para ofrecer mejores soluciones",
+      "detail": "Orientado al Detalle",
+      "detailDesc": "Comprometido a escribir c\u00f3digo limpio y mantenible con pruebas exhaustivas y documentaci\u00f3n"
+    }
+  },
+  "services": {
+    "title": "Servicios y Soluciones",
+    "items": {
+      "dotnet": {
+        "title": "Arquitectura e Ingenier\u00eda .NET",
+        "desc": "Dise\u00f1o e implementaci\u00f3n de arquitectura .NET de nivel empresarial. Especializado en arquitectura limpia, patrones CQRS, sistemas orientados a eventos y microservicios utilizando el ecosistema completo de .NET.",
+        "features": ["ASP.NET Core", "Arquitectura de Microservicios", "Entity Framework Core", "Patrones de Arquitectura Limpia"]
+      },
+      "cloud": {
+        "title": "Arquitectura Nativa de la Nube",
+        "desc": "Dise\u00f1o e implementaci\u00f3n de soluciones nativas de la nube en AWS y Azure. Arquitectura de sistemas serverless, microservicios en contenedores e infraestructura escalable usando principios de infraestructura como c\u00f3digo.",
+        "features": ["AWS Lambda & ECS", "Azure App Services", "Computaci\u00f3n Serverless", "IaC"]
+      },
+      "modernization": {
+        "title": "Modernizaci\u00f3n y Rearquitectura .NET",
+        "desc": "Modernización estrat\u00e9gica de sistemas heredados de .NET Framework a arquitecturas modernas nativas en la nube. Transformaci\u00f3n arquitect\u00f3nica completa incluyendo descomposici\u00f3n de microservicios y migraci\u00f3n a la nube.",
+        "features": ["Migraci\u00f3n de Framework a .NET Moderno", "Optimizaci\u00f3n de Rendimiento", "Modernizaci\u00f3n de Base de Datos", "Refactorizaci\u00f3n de Arquitectura"]
+      },
+      "leadership": {
+        "title": "Liderazgo T\u00e9cnico y Gu\u00eda Arquitect\u00f3nica",
+        "desc": "Liderando decisiones de arquitectura, mentorando equipos de ingenier\u00eda en mejores pr\u00e1cticas y estableciendo est\u00e1ndares arquitect\u00f3nicos. Guiando equipos a trav\u00e9s de desaf\u00edos arquitect\u00f3nicos complejos y estrategia t\u00e9cnica.",
+        "features": ["Liderazgo de Equipos \u00c1giles", "Procesos de Revisi\u00f3n de C\u00f3digo", "Mentor\u00eda de Desarrolladores", "Implementaci\u00f3n de Mejores Pr\u00e1cticas"]
+      },
+      "advisory": {
+        "title": "Consultor\u00eda y Asesor\u00eda en Arquitectura",
+        "desc": "Consultor\u00eda en arquitectura estrat\u00e9gica, revisiones de dise\u00f1o de sistemas y selecci\u00f3n de tecnolog\u00eda. Gu\u00eda experta en patrones de arquitectura, selecci\u00f3n de plataforma en la nube y planificaci\u00f3n de escalabilidad para sistemas empresariales.",
+        "features": ["Revisiones de Arquitectura", "Selecci\u00f3n de Tecnolog\u00eda", "Estrategia T\u00e9cnica", "An\u00e1lisis de Rendimiento"]
+      },
+      "devops": {
+        "title": "DevOps y Automatizaci\u00f3n",
+        "desc": "Configuraci\u00f3n de pipelines CI/CD, pruebas automatizadas, estrategias de despliegue e infraestructura como c\u00f3digo con AWS CDK y CloudFormation.",
+        "features": ["Pipelines CI/CD", "AWS CDK & CloudFormation", "Pruebas Automatizadas", "Estrategias de Despliegue"]
+      }
+    }
+  },
+  "consulting": {
+    "title": "Servicios de Consultor\u00eda",
+    "intro": "Transforma tu equipo de desarrollo y sus pr\u00e1cticas de entrega",
+    "lead": "Colaboro con l\u00edderes de ingenier\u00eda para impulsar mejoras de extremo a extremo en personas, procesos y plataforma. Los acompa\u00f1amientos se dise\u00f1an para estabilizar la entrega, estandarizar pr\u00e1cticas y construir capacidades que el equipo haga suyas.",
+    "areas": {
+      "environment": {
+        "title": "Organizaci\u00f3n del Entorno T\u00e9cnico",
+        "desc": "Repositorios, branching, ambientes y una base de Infraestructura como C\u00f3digo."
+      },
+      "process": {
+        "title": "Estandarizaci\u00f3n de Procesos",
+        "desc": "Definici\u00f3n del SDLC, pol\u00edticas de pull request, estrategia de ramas y convenciones de c\u00f3digo."
+      },
+      "devops": {
+        "title": "Coordinaci\u00f3n DevOps",
+        "desc": "Pipelines de CI/CD, flujos de promoci\u00f3n y pr\u00e1cticas de observabilidad."
+      },
+      "quality": {
+        "title": "Mejora de Calidad",
+        "desc": "Estrategia de pruebas en la pir\u00e1mide, quality gates en revisiones y triage de defectos."
+      },
+      "automation": {
+        "title": "Evaluaci\u00f3n de Automatizaci\u00f3n",
+        "desc": "Identificaci\u00f3n de automatizaciones de alto ROI, quick wins y backlog priorizado."
+      },
+      "knowledge": {
+        "title": "Transferencia de Conocimiento",
+        "desc": "Playbooks, documentaci\u00f3n, workshops y pairing."
+      }
+    },
+    "methodology": {
+      "title": "Metodolog\u00eda de Tres Fases",
+      "phases": {
+        "diagnosis": {
+          "title": "Diagn\u00f3stico y Planificaci\u00f3n",
+          "desc": "Sesiones de descubrimiento, evaluaci\u00f3n de madurez, hoja de ruta priorizada y alineaci\u00f3n de riesgos."
+        },
+        "implementation": {
+          "title": "Implementaci\u00f3n y Estandarizaci\u00f3n",
+          "desc": "Despliegue de est\u00e1ndares clave, pilotos de mejora, base de CI/CD y pruebas, y establecimiento de cadencia de entrega."
+        },
+        "consolidation": {
+          "title": "Consolidaci\u00f3n y Transferencia",
+          "desc": "Anclar pr\u00e1cticas, finalizar playbooks, formar champions y entregar con m\u00e9tricas claras."
+        }
+      }
+    },
+    "notes": {
+      "packages": "<strong>Paquetes disponibles:</strong> Adaptados a tu contexto. Definiremos el alcance y la cadencia en conjunto.",
+      "workMode": "<strong>Modalidad de trabajo:</strong> Remoto por defecto, con sesiones presenciales opcionales cuando aporten valor."
+    },
+    "cta": "Conversemos Sobre Tu Consultor\u00eda"
+  },
+  "technologies": {
+    "title": "Tecnolog\u00edas y Herramientas",
+    "intro": "Stack tecnol\u00f3gico integral para construir soluciones de nivel empresarial"
+  },
+  "portfolio": {
+    "title": "Casos de Estudio y Soluciones",
+    "challenge": "Desaf\u00edo: ",
+    "solution": "Soluci\u00f3n: ",
+    "results": "Resultados"
+  },
+  "certifications": {
+    "title": "Educaci\u00f3n y Certificaciones"
+  },
+  "contact": {
+    "title": "Inicia Tu Proyecto",
+    "heading": "\u00bfListo para transformar tu visi\u00f3n en realidad?",
+    "description": "Conversemos c\u00f3mo A89vg puede entregar la arquitectura escalable y las soluciones nativas de la nube que tu negocio necesita. Desde proyectos nuevos hasta modernizaci\u00f3n de sistemas heredados, cada soluci\u00f3n est\u00e1 diseñada para el \u00e9xito a largo plazo.",
+    "location": "Ubicaci\u00f3n",
+    "locationValue": "Remoto en todo el mundo",
+    "availability": "Disponibilidad",
+    "availabilityValue": "Disponible para trabajo remoto en todo el mundo",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electr\u00f3nico",
+      "company": "Empresa",
+      "projectType": "Tipo de Proyecto",
+      "projectTypePlaceholder": "Selecciona tipo de proyecto",
+      "projectTypes": {
+        "dotnet": "Desarrollo .NET",
+        "cloud": "Migraci\u00f3n a la Nube",
+        "legacy": "Modernizaci\u00f3n de Sistemas Heredados",
+        "architecture": "Arquitectura T\u00e9cnica",
+        "consulting": "Consultor\u00eda",
+        "devops": "DevOps y Automatizaci\u00f3n",
+        "other": "Otro"
+      },
+      "message": "Descripci\u00f3n del Proyecto",
+      "messagePlaceholder": "Cu\u00e9ntame sobre los requisitos de tu proyecto, cronograma y cualquier desaf\u00edo espec\u00edfico que est\u00e9s enfrentando...",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "consultingDetails": "Detalles de Consultor\u00eda",
+      "teamSize": "Tama\u00f1o del Equipo",
+      "teamSizePlaceholder": "Selecciona tama\u00f1o del equipo",
+      "challenges": "Retos o Puntos de Dolor Actuales",
+      "challengesPlaceholder": "Describe brevemente qu\u00e9 est\u00e1 bloqueando a tu equipo",
+      "timeline": "Plazo Preferido",
+      "timelinePlaceholder": "Selecciona plazo",
+      "timelineOptions": {
+        "urgent": "Urgente",
+        "1-3months": "1\u20133 meses",
+        "3-6months": "3\u20136 meses",
+        "flexible": "Flexible"
+      },
+      "engagement": "Modelo de Colaboraci\u00f3n Preferido",
+      "engagementPlaceholder": "Selecciona modelo de colaboraci\u00f3n",
+      "engagementOptions": {
+        "hourly": "Por horas",
+        "project": "Por proyecto",
+        "retainer": "Retainer o continuo",
+        "notsure": "No estoy seguro"
+      }
+    },
+    "validation": {
+      "nameRequired": "El nombre es requerido",
+      "nameMinLength": "El nombre debe tener al menos 2 caracteres",
+      "emailRequired": "El correo electr\u00f3nico es requerido",
+      "emailInvalid": "Por favor ingresa una direcci\u00f3n de correo v\u00e1lida",
+      "projectRequired": "Por favor selecciona un tipo de proyecto",
+      "messageRequired": "La descripci\u00f3n del proyecto es requerida",
+      "messageMinLength": "Por favor proporciona m\u00e1s detalles sobre tu proyecto (m\u00ednimo 10 caracteres)",
+      "teamSizeRequired": "Por favor selecciona el tama\u00f1o del equipo",
+      "challengesRequired": "Por favor describe tus retos actuales",
+      "challengesMinLength": "Por favor proporciona m\u00e1s detalles sobre tus retos (m\u00ednimo 10 caracteres)",
+      "timelineRequired": "Por favor selecciona un plazo preferido",
+      "engagementRequired": "Por favor selecciona un modelo de colaboraci\u00f3n",
+      "errorTitle": "Por favor corrige los siguientes errores:",
+      "serverErrorTitle": "Ocurri\u00f3 un error",
+      "successTitle": "\u00a1Mensaje Enviado Exitosamente!",
+      "successMessage": "\u00a1Gracias por tu inter\u00e9s! Revisar\u00e9 los detalles de tu proyecto y me pondr\u00e9 en contacto contigo en 24 horas.",
+      "errorMessage": "Lo siento, hubo un error al enviar tu mensaje. Por favor intenta de nuevo m\u00e1s tarde."
+    }
+  },
+  "cv": {
+    "hero": {
+      "subtitle": "Arquitecto de Software e Ingeniero de Soluciones Cloud",
+      "description": "15 a\u00f1os construyendo sistemas empresariales \u2014 desde dispositivos Windows Mobile hasta microservicios nativos de la nube \u2014 siempre en roles de construcci\u00f3n de producto con responsabilidad full-stack.",
+      "stats": {
+        "companies": "Empresas",
+        "projectTypes": "Tipos de Proyecto",
+        "technologies": "Tecnolog\u00edas"
+      },
+      "cta": "Ver Servicios",
+      "ctaContact": "Contacto"
+    },
+    "career": {
+      "title": "Trayectoria Profesional",
+      "techEvolution": "Evoluci\u00f3n Tecnol\u00f3gica",
+      "keyTransitions": "Transiciones Clave",
+      "from": "De",
+      "to": "A",
+      "scale": "Escala"
+    },
+    "companies": {
+      "title": "Detalle por Empresa",
+      "whatWasBuilt": "Qu\u00e9 Se Construy\u00f3",
+      "howItWasBuilt": "C\u00f3mo Se Construy\u00f3",
+      "complexity": "Complejidad T\u00e9cnica",
+      "expand": "Ver detalles",
+      "collapse": "Ocultar detalles",
+      "layer": "Capa",
+      "technology": "Tecnolog\u00eda"
+    },
+    "depth": {
+      "heavy": "Experto",
+      "moderate": "Competente",
+      "light": "Familiar"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 {{year}} A89vg - Arquitecto de Software e Ingeniero de Soluciones en la Nube",
+    "tagline": "Especializado en arquitectura escalable, soluciones nativas de la nube y liderazgo t\u00e9cnico"
+  }
+}
