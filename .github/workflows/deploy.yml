@@ -1,0 +1,49 @@
+# Production deploy — triggered on push to main, uses OIDC auth to assume an IAM role in AWS.
+
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    name: Deploy to AWS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: |
+            frontend/pnpm-lock.yaml
+            backend/pnpm-lock.yaml
+            cdk/pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: |
+          cd frontend && pnpm install --frozen-lockfile
+          cd ../backend && pnpm install --frozen-lockfile
+          cd ../cdk && pnpm install --frozen-lockfile
+
+      - name: Build frontend
+        run: cd frontend && pnpm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: CDK deploy
+        run: cd cdk && pnpm exec cdk deploy --require-approval never

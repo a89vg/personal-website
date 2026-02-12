@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #09090b;
+  --color-bg-card: #111113;
+  --color-bg-elevated: #1a1a1e;
+  --color-bg-section: #0f0f12;
+  --color-accent: #00d4ff;
+  --color-accent-dim: #0099cc;
+  --color-accent-glow: #00d4ff33;
+  --color-orange: #f97316;
+  --color-orange-dim: #ea580c;
+  --color-text: #fafafa;
+  --color-text-muted: #a1a1aa;
+  --color-text-dim: #52525b;
+  --color-border: #27272a;
+  --color-border-light: #3f3f46;
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Alternating section backgrounds for visual depth */
+section:nth-child(even of section) {
+  position: relative;
+  background-color: var(--color-bg-section);
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* Subtle gradient overlays for depth on alternate sections */
+section:nth-child(even of section)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 0%, rgba(0, 212, 255, 0.04), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(249, 115, 22, 0.04), transparent);
+  pointer-events: none;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-accent) var(--color-bg);
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--color-accent), var(--color-orange));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, var(--color-accent), var(--color-orange-dim));
+}
+
+/* Improved select dropdown styling for dark theme */
+select option {
+  background-color: var(--color-bg-card);
+  color: var(--color-text);
+}
+
+/* Animated gradient for section titles */
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.animate-gradient {
+  animation: gradient-shift 6s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-gradient { animation: none; }
+}
