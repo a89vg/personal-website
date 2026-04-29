@@ -35,11 +35,11 @@ export default class A89vgWebsite extends cdk.Stack {
 
     // Lambda function
     const contactFn = new lambda.Function(this, 'ContactFunction', {
-      runtime: lambda.Runtime.NODEJS_20_X,
+      runtime: lambda.Runtime.NODEJS_24_X,
       handler: 'lambda.handler',
       code: lambda.Code.fromAsset(backendPath, {
         bundling: {
-          image: lambda.Runtime.NODEJS_20_X.bundlingImage,
+          image: lambda.Runtime.NODEJS_24_X.bundlingImage,
           command: ['bash', '-c', 'echo "Docker bundling not used"'],
           local: {
             tryBundle(outputDir: string) {
